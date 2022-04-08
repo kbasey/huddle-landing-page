@@ -14,18 +14,55 @@ body {
     --grayishblue: hsl(208, 11%, 55%);
 
 }
+
+.top {
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    height: 100vh;
+}
+
 nav {
+    padding: 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
 }
-nav a {
+.btn-try {
     text-decoration: none;
     color: var(--dark-cyan);
     padding: .7rem 3rem;
-    background-color: var(--pale-cyan);
+    background-color: #fff;
     border-radius: 5rem;
     font-weight: 700;
 }
+.btn-try:hover {
+    color: var(--grayishblue);
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-left {
+    width: 50%;
+    padding: 0rem 1.5rem 0rem 2.5rem;
 
+}
+.hero-p {
+    line-height: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.btn-get-started {
+    text-decoration: none;
+    background-color: var(--pink);
+    padding: .9rem 4rem;
+    border-radius: 5rem;
+    color:hsl(193, 100%, 96%);
+}
+.btn-get-started:hover {
+    background-color: hsl(322, 100%, 66%, 0.7);
+}
+.hero-right {
+    width: 50%;
+    padding-right: 2.5rem;
+}
