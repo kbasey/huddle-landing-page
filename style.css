@@ -1,0 +1,31 @@
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-size: 18px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --pale-cyan: hsl(193, 100%, 96%);
+    --dark-cyan: hsl(192, 100%, 9%);
+    --grayishblue: hsl(208, 11%, 55%);
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+nav a {
+    text-decoration: none;
+    color: var(--dark-cyan);
+    padding: .7rem 3rem;
+    background-color: var(--pale-cyan);
+    border-radius: 5rem;
+    font-weight: 700;
+}
+
