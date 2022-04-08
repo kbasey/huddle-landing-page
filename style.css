@@ -14,13 +14,11 @@ body {
     --grayishblue: hsl(208, 11%, 55%);
 
 }
-
 .top {
     background-image: url(images/bg-hero-desktop.svg);
     background-color: hsl(193, 100%, 96%);
     height: 100vh;
 }
-
 nav {
     padding: 3rem;
     display: flex;
@@ -65,4 +63,29 @@ header {
 .hero-right {
     width: 50%;
     padding-right: 2.5rem;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0;
+}
+.together, .conversations, .users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 90%;
+    margin: 2rem 4rem;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px 2px hsl(208, 11%, 55%, 0.3);
+}
+.left, .right {
+    width: 50%;
+}
+.text p {
+    color: var(--grayishblue);
+    padding-right: 3rem;
+}
+.middle {
+    padding-left: 7rem;
 }
