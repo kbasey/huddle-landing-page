@@ -87,5 +87,19 @@ section {
     padding-right: 3rem;
 }
 .middle {
-    padding-left: 7rem;
+    padding-left: 3rem;
+}
+.get-started {
+    text-align: center;
+    margin: 0 auto;
+    height: 12rem;
+    width: 35rem;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px 2px hsl(208, 11%, 55%, 0.3);
+}
+footer {
+    background-color: var(--dark-cyan);
+    color: white;
+    padding: 5rem 2rem 3rem;
+    font-size: .8rem;
 }
