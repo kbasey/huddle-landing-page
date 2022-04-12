@@ -68,6 +68,7 @@ section {
     display: flex;
     flex-direction: column;
     margin: 5rem 0;
+    padding-bottom: 5rem;
 }
 .together, .conversations, .users {
     display: flex;
@@ -90,16 +91,63 @@ section {
     padding-left: 3rem;
 }
 .get-started {
-    text-align: center;
+    position: relative;
+    background-color: white;
     margin: 0 auto;
-    height: 12rem;
+    margin-bottom: -85px;
+    height: 7rem;
     width: 35rem;
     border-radius: 15px;
     box-shadow: 0 2px 6px 2px hsl(208, 11%, 55%, 0.3);
 }
+.box-text {
+    text-align: center;
+    padding-top: 2rem;
+}
+.box-text h3 {
+    padding-bottom: 1rem;
+}
 footer {
     background-color: var(--dark-cyan);
     color: white;
-    padding: 5rem 2rem 3rem;
+    height: 23rem;
+    padding: 7rem 2rem 0;
     font-size: .8rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.footer-logo {
+    padding-bottom: 2rem;
+}
+.footer-column1 {
+    width: 30%;
+    height: 20rem;
+    padding-left: 3rem;
+}
+.footer-column1 span {
+    padding-left: 1rem;
+    text-indent: 0;
+}
+.location, .phone, .email {
+    padding-bottom: 1.5rem;
+}
+.footer-column2, .footer-column3 {
+    width: 20%;
+    height: 20rem;
+    padding-top: 4rem;
+}
+.footer-column2 {
+    padding-left: 4rem;
+}
+.footer-column3{
+    margin-left: -3rem;
+}
+.footer-column4 {
+    width: 30%;
+    height: 20rem;
+    padding-top: 5rem;
+}
+.footer-column4 img {
+    padding: 0 .3rem;
 }
